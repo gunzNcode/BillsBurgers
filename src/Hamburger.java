@@ -39,6 +39,7 @@ public class Hamburger {
         price += additionalCost;
     }
 
+    //getters
     public String getBunType() {
         return bunType;
     }
