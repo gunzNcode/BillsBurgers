@@ -38,4 +38,40 @@ public class Hamburger {
         hasPickles = true;
         price += additionalCost;
     }
+
+    public String getBunType() {
+        return bunType;
+    }
+
+    public String getMeatType() {
+        return meatType;
+    }
+
+    public boolean isHasLettuce() {
+        return hasLettuce;
+    }
+
+    public boolean isHasTomato() {
+        return hasTomato;
+    }
+
+    public boolean isHasCarrot() {
+        return hasCarrot;
+    }
+
+    public boolean isHasPickles() {
+        return hasPickles;
+    }
+
+    public int getAdditionalItems() {
+        return additionalItems;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getAdditionalCost() {
+        return additionalCost;
+    }
 }
